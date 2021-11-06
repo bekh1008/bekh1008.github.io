@@ -9,9 +9,10 @@ VANTA.BIRDS({
     scaleMobile: 1.00,
     // backgroundColor: '#25252500',
     backgroundColor: '#252525',
-    color1: '#caf25c',
-    color2: '#252525',
-    birdSize: 0.60,
+    color1: '#032700',
+    color2: '#caf25c',
+    birdSize: 1,
+    colorMode: 'lerpGradient'
  
 
   })
