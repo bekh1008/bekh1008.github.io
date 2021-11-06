@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 0.88 0.88" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+    <defs>
+        <style>.fil1{fill:#caf25c}</style>
+    </defs>
+    <g id="Слой_x0020_1">
+        <path fill="none" d="M0 0h.88v.88H0z" />
+        <path class="fil1" d="M.1.51C.07.31.21.13.38.1c.2-.03.37.11.4.27C.86.84.17.93.1.51zM.32.02c-.55.17-.32 1 .24.85C1.13.71.87-.15.32.02z" />
+        <path class="fil1" d="M.51.71C.48.51.65.36.35.37.37.61.23.72.51.71zM.4.17C.36.24.37.35.48.31.56.29.56.14.4.17z" />
+    </g>
+</svg>

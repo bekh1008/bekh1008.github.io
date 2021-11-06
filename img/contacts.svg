@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.408" height="30.408" viewBox="0 0 2.87 2.87" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+    <defs>
+        <style>.fil1{fill:#caf25c}</style>
+    </defs>
+    <g id="Слой_x0020_1">
+        <path fill="none" d="M0 0h2.87v2.87H0z" />
+        <g id="_1286427568">
+            <path class="fil1" d="M2.23 1.85c-.12.12-.16.19-.26.32C1.46 2.17.74 1.41.68.93l.33-.31C.8-.8-.99.42.76 2.15c1.68 1.66 2.9-.06 1.47-.3zM1.5.15c.06.28.04.15.36.23.33.08.54.28.62.6.1.38-.04.38.28.37C3.03.74 2.03-.27 1.5.15z" />
+            <path class="fil1" d="M2.16 1.36c.2-.37-.2-.79-.66-.66.03.33.12.13.33.31.26.22-.09.3.33.35z" />
+        </g>
+    </g>
+</svg>
