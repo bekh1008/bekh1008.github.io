@@ -208,16 +208,16 @@ $(function(){
 
 
 
-const gooey = document.querySelector('.gooey-menu-open-button');
+// const gooey = document.querySelector('.gooey-menu-open-button');
 
- gooey.onclick = function(){
-        gooey.style.width = '80px';
-        gooey.style.height ='80px';
-        // gooey.style.opacity ='0.6';
+//  gooey.onclick = function(){
+//         gooey.style.width = '80px';
+//         gooey.style.height ='80px';
+//         // gooey.style.opacity ='0.6';
             
- }
+//  }
     
-init();
+// init();
 
 
 
