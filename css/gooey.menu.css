@@ -1,0 +1,394 @@
+/* line 14, ../scss/gooey.menu.scss */
+.gooey-menu {
+  filter: url("#goo");
+}
+
+/* line 19, ../scss/gooey.menu.scss */
+.gooey-menu-item, .gooey-menu-open-button {
+  background: #CAF25A;
+  border-radius: 100%;
+ 
+  /* margin-left: -50px; */
+  position: absolute;
+  top: 70px;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  transform: translate3d(0, 0, 0);
+  transition: transform ease-out 200ms;
+  
+/* opacity: 0.6; */
+}
+
+.gooey-menu-item{
+  width: 72px;
+  height: 72px}
+
+.gooey-menu-item:hover{
+  opacity: 1;
+  /* transition: 100ms; */
+}
+.gooey-menu-open-button:hover{
+  opacity: 1;
+  /* transition: 100ms; */
+}
+
+
+
+/* line 33, ../scss/gooey.menu.scss */
+.gooey-menu-open {
+  display: none;
+}
+
+/* line 39, ../scss/gooey.menu.scss */
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -12.5px;
+  margin-top: -1.5px;
+  transition: transform 200ms;
+}
+
+/* line 54, ../scss/gooey.menu.scss */
+.hamburger-1 {
+  transform: translate3d(0, -8px, 0);
+}
+
+/* line 57, ../scss/gooey.menu.scss */
+.hamburger-2 {
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 60, ../scss/gooey.menu.scss */
+.hamburger-3 {
+  transform: translate3d(0, 8px, 0);
+}
+
+/* line 64, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked + .gooey-menu-open-button .hamburger-1 {
+  transform: translate3d(0, 0, 0) rotate(45deg);
+}
+/* line 67, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked + .gooey-menu-open-button .hamburger-2 {
+  transform: translate3d(0, 0, 0) scale(0.1, 1);
+}
+/* line 70, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked + .gooey-menu-open-button .hamburger-3 {
+  transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+
+/* line 74, ../scss/gooey.menu.scss */
+.gooey-menu {
+  /* position: absolute ; */
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+  width: 380px;
+  height: 250px;
+  box-sizing: border-box;
+  font-size: 20px;
+/* transform: translateY(80)!important; */
+/* margin-top: 200px; */
+/* transform: translateX(60px)!important; */
+  z-index: 2;
+
+}
+
+*{
+  text-decoration: none!important;
+  list-style: none!important;
+}
+
+
+/* line 92, ../scss/gooey.menu.scss */
+.gooey-menu-item span {
+  /* padding: 0 30px; */
+  padding: 15px 25px;
+  display: inline-block;
+  /* color: #252525; */
+  color: #CAF25C;
+  font-weight: bold;
+  white-space: nowrap;
+  /* opacity: 0; */
+  visibility: hidden;
+  transform: translate(0, 0);
+  transition: opacity 400ms, transform 400ms;
+
+  
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(3) {
+  transition-duration: 180ms;
+
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(3):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-25%, -70%);
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(4) {
+  transition-duration: 180ms;
+  
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(4):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(60px, 0px);
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(5) {
+  transition-duration: 180ms;
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(5):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(60px, 0px);
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(6) {
+  transition-duration: 180ms;
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(6):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(60px, 0px);
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(7) {
+  transition-duration: 180ms;
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(7):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-90%, 0);
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(8) {
+  transition-duration: 180ms;
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(8):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-90%, 0);
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(9) {
+  transition-duration: 180ms;
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(9):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-90%, 0);
+}
+/* line 104, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(10) {
+  transition-duration: 180ms;
+}
+/* line 108, ../scss/gooey.menu.scss */
+.gooey-menu-item:nth-child(10):hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-90%, 0);
+}
+
+/* line 124, ../scss/gooey.menu.scss */
+.gooey-menu-open-button {
+  z-index: 2;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 400ms;
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer;
+  background-image: url(../img/icons/logo.png);
+  background-size: 70% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* padding: 50px; */
+  width: 112px;
+  height: 112px;
+opacity: 1;
+transition: .5s;
+
+
+}
+.gooey-menu-open-button:hover::before,
+.gooey-menu-open-button:hover::after {
+ content: '';
+ position: absolute;
+ border: 1px solid #CAF25A;
+ left: -20px;
+ right: -20px;
+ top: -20px;
+ bottom: -20px;
+ border-radius: 50%;
+ animation: gooey-menu-open-button none;
+ /* opacity: 1; */
+ cursor: pointer;
+}
+.gooey-menu-open-button:hover::after {
+ animation-delay: .5s;
+}
+
+.gooey-menu-open-button::before,
+.gooey-menu-open-button::after {
+ content: '';
+ position: absolute;
+ border: 1px solid #CAF25A;
+ left: -20px;
+ right: -20px;
+ top: -20px;
+ bottom: -20px;
+ border-radius: 50%;
+ animation: gooey-menu-open-button 1.8s linear infinite;
+ opacity: 0;
+}
+.gooey-menu-open-button::after {
+ animation-delay: .5s;
+}
+
+
+
+@keyframes gooey-menu-open-button {
+  0% {
+   transform: scale(0.5);
+   opacity: 0;
+  }
+  50% {
+   opacity: 1;
+  }
+  100% {
+   transform: scale(1.2);
+   opacity: 0;
+  }
+ }
+ 
+
+/* line 136, ../scss/gooey.menu.scss */
+.gooey-menu-open-button:hover {
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+
+/* line 139, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked + .gooey-menu-open-button {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0) rotate(360deg);
+}
+
+/* line 145, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item {
+  transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+}
+
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(3) {
+  transition-duration: 180ms;
+  transform: translate3d(0.09158px, -114.99996px, 0);
+  background-image: url(../img/icons/01.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(4) {
+  transition-duration: 280ms;
+  transform: translate3d(89.93509px, -71.67064px, 0);
+  background-image: url(../img/icons/02.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(5) {
+  transition-duration: 380ms;
+  transform: translate3d(112.11962px, 25.57715px, 0);
+  background-image: url(../img/icons/03.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(6) {
+  transition-duration: 480ms;
+  transform: translate3d(49.95556px, 103.58302px, 0);
+  background-image: url(../img/icons/04.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(7) {
+  transition-duration: 580ms;
+  transform: translate3d(-49.79052px, 103.66245px, 0);
+  background-image: url(../img/icons/05.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(8) {
+  transition-duration: 680ms;
+  transform: translate3d(-112.07874px, 25.75569px, 0);
+  background-image: url(../img/icons/06.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(9) {
+  transition-duration: 780ms;
+  transform: translate3d(-90.04912px, -71.52731px, 0);
+  background-image: url(../img/icons/07.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 150, ../scss/gooey.menu.scss */
+.gooey-menu-open:checked ~ .gooey-menu-item:nth-child(10) {
+  transition-duration: 880ms;
+  transform: translate3d(-0.27473px, -114.99967px, 0);
+  background-image: url(../img/icons/08.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* 
+@media (min-height: 576px) {
+  .middle-bg, .gooey-menu {
+    transform: translateY(-20px);
+  }
+}
+@media (min-height: 768px) {
+  .middle-bg, .gooey-menu {
+    transform: translateY(-80px);
+  }
+}
+
+@media (min-height: 920px) { 
+  .middle-bg, .gooey-menu {
+    transform: translateY(-150px);
+  }
+}*/
+
+
+@media (max-width: 576px){
+  /* .gooey-menu {
+margin-top: 100px;
+}  */
+}
