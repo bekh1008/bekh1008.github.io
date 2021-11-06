@@ -89,7 +89,7 @@ display: flex;
 text-align: center;
 align-items: center;
 justify-content: center;
-margin-top: 100px;
+margin-top: 200px;
   width: 380px;
   height: 250px;
   box-sizing: border-box;
@@ -214,7 +214,7 @@ margin-top: 100px;
   transform: scale(1.1, 1.1) translate3d(0, 0, 0);
   cursor: pointer;
   background-image: url(../img/icons/logo.png);
-  background-size: 70% auto;
+  background-size: 60%!important;
   background-repeat: no-repeat;
   background-position: center;
   /* padding: 50px; */
